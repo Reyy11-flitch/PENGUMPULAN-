@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="ERD perpustakaan">
+  <rect width="800" height="450" fill="#f4f7f5"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#12332a">
+    <rect x="40" y="150" width="200" height="130" rx="8" fill="#ffffff" stroke="#1f6f5c" stroke-width="2"/>
+    <text x="140" y="180" text-anchor="middle" font-weight="bold">Anggota</text>
+    <text x="56" y="212">id_anggota (PK)</text><text x="56" y="236">nama</text><text x="56" y="260">prodi</text>
+
+    <rect x="300" y="150" width="200" height="130" rx="8" fill="#ffffff" stroke="#1f6f5c" stroke-width="2"/>
+    <text x="400" y="180" text-anchor="middle" font-weight="bold">Peminjaman</text>
+    <text x="316" y="212">id_pinjam (PK)</text><text x="316" y="236">id_anggota (FK)</text><text x="316" y="260">id_buku (FK)</text>
+
+    <rect x="560" y="150" width="200" height="130" rx="8" fill="#ffffff" stroke="#1f6f5c" stroke-width="2"/>
+    <text x="660" y="180" text-anchor="middle" font-weight="bold">Buku</text>
+    <text x="576" y="212">id_buku (PK)</text><text x="576" y="236">judul</text><text x="576" y="260">penulis</text>
+
+    <line x1="240" y1="215" x2="300" y2="215" stroke="#1f6f5c" stroke-width="2"/>
+    <line x1="500" y1="215" x2="560" y2="215" stroke="#1f6f5c" stroke-width="2"/>
+    <text x="270" y="205" text-anchor="middle">1..N</text>
+    <text x="530" y="205" text-anchor="middle">N..1</text>
+  </g>
+</svg>

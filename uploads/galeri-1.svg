@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Topologi jaringan">
+  <rect width="800" height="450" fill="#e8f0fb"/>
+  <g stroke="#2d5aa0" stroke-width="3" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">
+    <line x1="400" y1="150" x2="160" y2="320"/><line x1="400" y1="150" x2="400" y2="320"/><line x1="400" y1="150" x2="640" y2="320"/>
+    <rect x="330" y="100" width="140" height="60" rx="8"/><rect x="90" y="300" width="140" height="60" rx="8"/>
+    <rect x="330" y="300" width="140" height="60" rx="8"/><rect x="570" y="300" width="140" height="60" rx="8"/>
+    <g fill="#12264a" stroke="none">
+      <text x="400" y="137">Switch</text><text x="160" y="337">PC 1</text><text x="400" y="337">PC 2</text><text x="640" y="337">PC 3</text>
+    </g>
+  </g>
+</svg>

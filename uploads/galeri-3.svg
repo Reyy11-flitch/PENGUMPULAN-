@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Hasil uji ping">
+  <rect width="800" height="450" fill="#101614"/>
+  <g font-family="Consolas, monospace" font-size="20" fill="#7be0b0">
+    <text x="50" y="90">$ ping 192.168.1.20</text>
+    <text x="50" y="140">Reply from 192.168.1.20: time=1ms</text>
+    <text x="50" y="180">Reply from 192.168.1.20: time=1ms</text>
+    <text x="50" y="220">Reply from 192.168.1.20: time=2ms</text>
+    <text x="50" y="260">Reply from 192.168.1.20: time=1ms</text>
+    <text x="50" y="320">4 packets sent, 4 received, 0% loss</text>
+  </g>
+</svg>

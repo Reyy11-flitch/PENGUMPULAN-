@@ -1,0 +1,38 @@
+{
+  "pemilik": { "nama": "Nama Mahasiswa", "nim": "1234567890" },
+  "judul_situs": "Kumpulan Tugas Kuliah",
+  "tugas": [
+    {
+      "id": "tugas-1-basis-data",
+      "judul": "Tugas 1: Desain ERD Perpustakaan",
+      "mata_kuliah": "Basis Data",
+      "tanggal": "2026-10-20",
+      "teks": "Tugas ini merancang Entity Relationship Diagram untuk sistem perpustakaan kampus. Entitas utamanya adalah Anggota, Buku, dan Peminjaman.\n\nSetiap anggota dapat meminjam banyak buku, dan satu buku dapat dipinjam banyak kali pada waktu yang berbeda, sehingga relasi keduanya dipecah lewat tabel Peminjaman.\n\nDiagram lengkap ada pada gambar di bawah, dan penjelasan rinci tersedia pada laporan PDF.",
+      "gambar": [
+        { "file": "uploads/erd-1.svg", "keterangan": "ERD perpustakaan (versi final)" }
+      ],
+      "lampiran": [
+        { "file": "uploads/Laporan Tugas 1.pdf", "nama": "Laporan Tugas 1" }
+      ]
+    },
+    {
+      "id": "catatan-pemrograman-web",
+      "judul": "Catatan: Dasar HTML dan CSS",
+      "mata_kuliah": "Pemrograman Web",
+      "tanggal": "2026-10-15",
+      "teks": "Ringkasan pertemuan ketiga: struktur dokumen HTML, elemen semantik seperti header, main, dan footer, serta dasar-dasar selector CSS.\n\nCatatan penting: gunakan elemen semantik agar halaman mudah dipahami pembaca layar dan mesin pencari."
+    },
+    {
+      "id": "galeri-praktikum",
+      "judul": "Dokumentasi Praktikum Jaringan",
+      "mata_kuliah": "Jaringan Komputer",
+      "tanggal": "2026-10-08",
+      "teks": "Dokumentasi praktikum konfigurasi jaringan lokal: topologi, pengaturan alamat IP, dan hasil uji koneksi.",
+      "gambar": [
+        { "file": "uploads/galeri-1.svg", "keterangan": "Topologi jaringan" },
+        { "file": "uploads/galeri-2.svg", "keterangan": "Pengaturan alamat IP" },
+        { "file": "uploads/galeri-3.svg", "keterangan": "Hasil uji ping" }
+      ]
+    }
+  ]
+}
